@@ -16,10 +16,14 @@ This repository contains my personal notes from studying on the TryHackMe platfo
 
 📖 How to Use These Notes / Як користуватись нотатками
 
-📁 Open folders by category: Pre-Security, Junior-Pentest, etc./ Відкрий папки за категоріями: Pre-Security, Junior-Pentest тощо
+📁 Open folders by category: Pre-Security, Junior-Pentest, etc.
+Відкрий папки за категоріями: Pre-Security, Junior-Pentest тощо
 
-📄 Read .md files for each TryHackMe room/ Читай .md-файли для кожної кімнати
+📄 Read .md files for each TryHackMe room
+Читай .md-файли для кожної кімнати
 
-✅ Use bilingual format to learn terms in English and understand better/ Використовуй двомовність, щоб вивчати терміни англійською й краще розуміти
+✅ Use bilingual format to learn terms in English and understand better
+Використовуй двомовність, щоб вивчати терміни англійською й краще розуміти
 
-📌 Copy commands and add your own examples/ Копіюй команди та додавай власні приклади
+📌 Copy commands and add your own examples
+Копіюй команди та додавай власні приклади
