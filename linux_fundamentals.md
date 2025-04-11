@@ -1,3 +1,8 @@
+🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentals1)
+🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentals2)
+🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentals3)
+
+ 
  Basic Commands / Основні команди
 echo "text"     # prints text to the terminal / виводить текст у термінал
 whoami          # shows current user / показує ім’я користувача
