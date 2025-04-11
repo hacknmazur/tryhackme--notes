@@ -1,3 +1,5 @@
+Pre-Security/linux_fundamentals.md
+
 🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1)
 🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentalspart2)
 🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentalspart3)
