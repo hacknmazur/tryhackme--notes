@@ -80,49 +80,29 @@ Event Type
 
 Description
 
-Error
+Error - Critical issue (data loss, system failure)
 
-Critical issue (data loss, system failure)
+Warning - Potential issue that hasn't caused a failure yet
 
-Warning
+Information - Successful action or service message
 
-Potential issue that hasn't caused a failure yet
+Success Audit - Successful security-related action (e.g. login)
 
-Information
-
-Successful action or service message
-
-Success Audit
-
-Successful security-related action (e.g. login)
-
-Failure Audit
-
-Failed attempt at a secure action (e.g. failed login)
+Failure Audit - Failed attempt at a secure action (e.g. failed login)
 
 Тип події
 
 Опис
 
-Error
+Error - Серйозна проблема (втрата даних, збій служби)
 
-Серйозна проблема (втрата даних, збій служби)
+Warning - Потенційна проблема, яка ще не спричинила збій
 
-Warning
+Information - Інформує про успішне виконання дій
 
-Потенційна проблема, яка ще не спричинила збій
+Success Audit - Успішна безпекова подія (наприклад, вхід у систему)
 
-Information
-
-Інформує про успішне виконання дій
-
-Success Audit
-
-Успішна безпекова подія (наприклад, вхід у систему)
-
-Failure Audit
-
-Невдала спроба безпечної дії (наприклад, невдалий логін)
+Failure Audit - Невдала спроба безпечної дії (наприклад, невдалий логін)
 
 📋 Event Logs (Журнали подій)
 
