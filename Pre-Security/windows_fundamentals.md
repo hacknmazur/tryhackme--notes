@@ -33,6 +33,14 @@ CMD is the classic Windows command-line tool, useful for basic tasks.
 
 CMD — класичний інструмент Windows для базових команд.
 
+PowerShell is a modern and powerful command-line interface and scripting environment.
+
+PowerShell — сучасне середовище командного рядка з підтримкою скриптів та автоматизації.
+
+CMD is the classic Windows command-line tool, useful for basic tasks.
+
+CMD — класичний інструмент Windows для базових команд.
+
 PowerShell is a powerful scripting environment based on .NET.
 
 PowerShell — більш потужне середовище, що дозволяє працювати з об'єктами та автоматизацією.
