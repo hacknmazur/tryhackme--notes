@@ -1,7 +1,9 @@
 🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1)
 🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentalspart2)
 🔗 [Room on TryHackMe](https://tryhackme.com/room/linuxfundamentalspart3)
- Basic Commands / Основні команди
+
+Basic Commands / Основні команди
+
 echo "text"     # prints text to the terminal / виводить текст у термінал
 whoami          # shows current user / показує ім’я користувача
 pwd             # print working directory / поточна директорія
@@ -16,11 +18,13 @@ mv old new          # rename/move / перейменувати або перем
 cp source dest      # copy files / копіювати файли
 
 Permissions / Права доступу
+
 ls -l                   # show permission flags / показує права доступу
 chmod +x file.sh        # add execute permission / дозволити виконання
 chown user:group file   # change owner / змінити власника
 
 Networking / Мережа
+
 ip a             # show IP addresses / показати IP
 ping 8.8.8.8     # test connection / перевірити з’єднання
 
