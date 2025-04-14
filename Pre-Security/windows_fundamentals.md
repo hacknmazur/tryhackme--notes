@@ -127,3 +127,91 @@ Security — події безпеки
 System — події від системи
 
 CustomLog — власні журнали програм
+
+
+🔄 Windows Update
+
+EN: Windows Update is a service provided by Microsoft to deliver security updates, feature improvements, and bug fixes for the Windows operating system and other Microsoft products like Microsoft Defender.UA: Windows Update — це служба, яку надає корпорація Майкрософт для забезпечення оновлень безпеки, покращення функцій і виправлень для операційної системи Windows та інших продуктів Microsoft, наприклад Microsoft Defender.
+
+📌 Tip: Another way to access Windows Update is through the Run dialog or CMD by typing:
+
+control /name Microsoft.WindowsUpdate
+
+🔥 Windows Firewall Profiles
+
+EN: According to Microsoft, "Windows Firewall offers three firewall profiles: Domain, Private, and Public."
+
+Domain: Applied when the computer can authenticate with a domain controller.
+
+Private: User-assigned, used for trusted home or private networks.
+
+Public: Default profile, used for public places like cafes or airports.
+
+UA: Згідно з Microsoft, «брандмауер Windows пропонує три профілі брандмауера: доменний, приватний і публічний».
+
+Доменний: застосовується до мереж, де хост-система може автентифікуватися на контролері домену.
+
+Приватний: призначений користувачем для приватних або домашніх мереж.
+
+Загальнодоступний: профіль за замовчуванням, який використовується в публічних мережах.
+
+📌 Tip: To open the Windows Defender Firewall UI, use the command:
+
+WF.msc
+
+🛡️ Microsoft Defender SmartScreen
+
+EN: According to Microsoft, "Microsoft Defender SmartScreen protects against phishing or malware websites and applications, and against downloading potentially malicious files."
+
+UA: Згідно з Microsoft, «Microsoft Defender SmartScreen захищає від фішингу або зловмисного програмного забезпечення веб-сайтів і програм, а також завантаження потенційно шкідливих файлів».
+
+🔐 TPM — Trusted Platform Module
+
+EN: According to Microsoft, "The Trusted Platform Module (TPM) technology is designed to provide hardware-based security-related functions. The TPM chip is a secure crypto-processor that performs cryptographic operations. It includes multiple physical security mechanisms to make it tamper-resistant, and malicious software cannot tamper with TPM's security functions."
+
+UA: Згідно з Microsoft, «технологія Trusted Platform Module (TPM) розроблена для забезпечення апаратних функцій, пов’язаних із безпекою. Мікросхема TPM — це захищений криптопроцесор, призначений для виконання криптографічних операцій. Мікросхема містить кілька фізичних механізмів безпеки, щоб зробити її стійкою до втручання, а зловмисне програмне забезпечення не може втручатися в функції безпеки TPM».
+
+🔒 BitLocker Drive Encryption
+
+EN: According to Microsoft, "BitLocker Drive Encryption is a data protection feature that integrates with the operating system and addresses threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers."
+
+BitLocker provides the best protection when used with TPM 1.2 or newer.
+
+UA: На думку Microsoft, «Шифрування диска BitLocker — це функція захисту даних, яка інтегрується з операційною системою та запобігає загрозам крадіжки даних або доступу до них із загублених, викрадених чи неналежним чином виведених з експлуатації комп’ютерів».
+
+Згідно з Microsoft, «BitLocker забезпечує найкращий захист, якщо використовується з TPM версії 1.2 або пізнішої. TPM працює з BitLocker, щоб захистити дані користувача та гарантувати, що комп’ютер не було змінено, коли система була в автономному режимі».
+
+📌 If the system does not support TPM, a removable drive (USB) is required to store the startup key needed during boot.
+
+📸 Volume Shadow Copy Service (VSS)
+
+EN: According to Microsoft, "The Volume Shadow Copy Service (VSS) coordinates the required actions to create a consistent shadow copy (also known as a snapshot or point-in-time copy) of data that needs to be backed up."
+
+Shadow copies are stored in the System Volume Information folder on each drive where protection is enabled.
+
+UA: Згідно з Microsoft, «Служба тіньового копіювання томів (VSS) координує необхідні дії для створення узгодженої тіньової копії (також відомої як знімок або копія на певний момент часу) даних, для яких потрібно створити резервну копію».
+
+Тіньові копії зберігаються в папці System Volume Information на кожному диску, де захист увімкнено.
+
+🔹 Якщо VSS увімкнено (системний захист активний), можна:
+
+Створити точку відновлення
+
+Виконати відновлення системи
+
+Налаштувати параметри відновлення
+
+Видалити точки відновлення
+
+📚 Further Reading Material
+
+Antimalware Scan Interface
+
+Credential Guard
+
+Windows 10 Hello
+
+CSO Online – The best new Windows 10 security features
+
+
+
