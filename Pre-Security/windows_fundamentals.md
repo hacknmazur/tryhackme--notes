@@ -82,9 +82,7 @@ The main goal is to diagnose startup problems.
 
 📄 Event Log Types (Типи подій)
 
-Event Type
-
-Description
+Event Type/Description
 
 Error - Critical issue (data loss, system failure)
 
@@ -96,9 +94,7 @@ Success Audit - Successful security-related action (e.g. login)
 
 Failure Audit - Failed attempt at a secure action (e.g. failed login)
 
-Тип події
-
-Опис
+Тип події/Опис
 
 Error - Серйозна проблема (втрата даних, збій служби)
 
@@ -131,7 +127,9 @@ CustomLog — власні журнали програм
 
 🔄 Windows Update
 
-EN: Windows Update is a service provided by Microsoft to deliver security updates, feature improvements, and bug fixes for the Windows operating system and other Microsoft products like Microsoft Defender.UA: Windows Update — це служба, яку надає корпорація Майкрософт для забезпечення оновлень безпеки, покращення функцій і виправлень для операційної системи Windows та інших продуктів Microsoft, наприклад Microsoft Defender.
+EN: Windows Update is a service provided by Microsoft to deliver security updates, feature improvements, and bug fixes for the Windows operating system and other Microsoft products like Microsoft Defender.
+
+UA: Windows Update — це служба, яку надає корпорація Майкрософт для забезпечення оновлень безпеки, покращення функцій і виправлень для операційної системи Windows та інших продуктів Microsoft, наприклад Microsoft Defender.
 
 📌 Tip: Another way to access Windows Update is through the Run dialog or CMD by typing:
 
