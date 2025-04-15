@@ -274,6 +274,12 @@ EN: Opens the Windows Registry Editor.
 
 UA: Відкриває редактор реєстру Windows.
 
+Event Viewer — eventvwr.msc, .
+
+dir /r — це must-know команда для виявлення прихованих потоків (ADS).
+
+services.msc відкриває GUI для служб.
+
 📚 Further Reading Material
 
 Antimalware Scan Interface
