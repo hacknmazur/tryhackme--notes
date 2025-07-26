@@ -14,5 +14,5 @@ I am learning cybersecurity, pentesting,
 ## My TryHackMe Profile  
 [https://tryhackme.com/p/hacknmazur0x](https://tryhackme.com/p/hacknmazur0x)
 
-## Contact  
-Email: a.mazur1503@gmail.com
+## Contact
+Email: gdean7260@gmail.com
