@@ -1,7 +1,9 @@
 # Hi! I'm Andrii Mazur 👋
 
 This repository contains my notes and write-ups from TryHackMe.  
-I am learning cybersecurity, pentesting,
+I am learning cybersecurity, pentesting, networking, and Linux.  
+Currently practicing on TryHackMe and building my skills in ethical hacking.
+
 
 📚 Goals (Цілі)
 ✅ Complete TryHackMe learning paths до Red Team
