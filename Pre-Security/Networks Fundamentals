@@ -1,0 +1,174 @@
+# TryHackMe Notes — Network Fundamentals & VPN Basics
+
+Welcome to my cybersecurity learning notes! This file covers fundamental networking concepts and VPN technologies from my TryHackMe studies.
+
+---
+
+## 📡 Network Fundamentals
+
+### IP Addressing
+
+- An **IP address** is a set of four octets (e.g., 192.168.1.1).
+- Devices can have **public** or **private** IP addresses.
+- **Private IP ranges** include:
+  - 10.0.0.0 – 10.255.255.255
+  - 172.16.0.0 – 172.31.255.255
+  - 192.168.0.0 – 192.168.255.255
+- Public IP addresses are routable on the internet, while private IPs are used inside local networks.
+
+### MAC Address
+
+- MAC (Media Access Control) address is a **unique 12-digit hexadecimal number** separated by colons (e.g., `a4:c3:f0:85:ac:2d`).
+- The first 6 digits identify the manufacturer, the last 6 are unique per device.
+
+---
+
+## 🖥️ OSI Model & Protocols
+
+### OSI Model Layers (7 layers)
+
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+**Encapsulation** is the process of wrapping data with protocol information at each layer.
+
+### Routing Protocols on Layer 3 (Network Layer)
+
+- **OSPF (Open Shortest Path First)** — link-state routing protocol.
+- **RIP (Routing Information Protocol)** — distance-vector routing protocol.
+
+---
+
+## 🧩 Packet and Frame Structure
+
+- A **packet** consists of:
+  - Source and destination IP addresses
+  - Time To Live (TTL)
+  - Checksum (for error-checking)
+  - Payload data
+- A **frame** contains physical addressing (MAC addresses) and packet data.
+
+---
+
+## 🔗 TCP/IP Model & Packet Details
+
+- TCP/IP model has 4 layers: Network Interface, Internet, Transport, Application.
+  
+### TCP Packet Structure:
+
+| Field            | Description                                           |
+|------------------|-----------------------------------------------------|
+| Source Port      | Randomly selected port from available ports (0–65535) |
+| Destination Port | Port where the receiving service listens (e.g., 80 for HTTP) |
+| Source IP Address | IP address of the sender device                      |
+| Destination IP Address | IP address of the receiving device               |
+| Sequence Number  | Number assigned to order TCP segments                |
+| Acknowledgment Number | Next expected sequence number                      |
+| Checksum        | Ensures data integrity                                |
+| Flags           | Controls connection state (SYN, ACK, FIN, etc.)      |
+| Data            | Actual payload                                        |
+
+### TCP Connection Establishment and Termination
+
+- **Three-way handshake**:
+  1. SYN (synchronize)
+  2. SYN-ACK (synchronize-acknowledge)
+  3. ACK (acknowledge)
+  
+- **Connection termination**:
+  1. FIN
+  2. ACK/FIN
+  3. ACK
+
+---
+
+## 🧪 UDP Protocol and Packet Structure
+
+| Field            | Description                                           |
+|------------------|-----------------------------------------------------|
+| TTL              | Time to Live, prevents packet looping                |
+| Source IP Address | Sender's IP address                                  |
+| Destination IP Address | Receiver's IP address                              |
+| Source Port      | Randomly selected port                               |
+| Destination Port | Port of the service                                  |
+| Data             | Payload data                                        |
+
+---
+
+## 🔌 Common Network Ports
+
+| Service | Port Number |
+|---------|-------------|
+| FTP     | 21          |
+| SSH     | 22          |
+| HTTP    | 80          |
+| HTTPS   | 443         |
+| RDP     | 3389        |
+| SMB     | 445         |
+
+---
+
+## 🌐 Advanced Networking Concepts
+
+### Intranet and Extranet
+
+- **Intranet** — private internal network within an organization.
+- **Extranet** — a controlled private network allowing access to outsiders (partners, vendors).
+
+### Port Forwarding
+
+- Technique to redirect communication requests from one address/port to another.
+
+### Firewalls
+
+- **Stateful Firewall** — monitors active connections and makes filtering decisions based on connection state.
+- **Stateless Firewall** — filters packets based only on static information like IP address and port.
+
+---
+
+## 🔒 VPN Basics and Protocols
+
+### What is VPN?
+
+A Virtual Private Network (VPN) extends a private network across a public network, allowing users to send and receive data securely.
+
+### VPN Protocols:
+
+#### PPP (Point-to-Point Protocol)
+- Used historically for direct connections over phone lines.
+- Provides framing and basic authentication but **no strong encryption**.
+- Mostly outdated.
+
+#### PPTP (Point-to-Point Tunneling Protocol)
+- VPN protocol that encapsulates PPP packets inside IP packets.
+- Uses TCP port 1723 and GRE protocol.
+- Considered insecure and deprecated.
+
+#### IPSec (Internet Protocol Security)
+- Provides authentication and encryption at the IP packet level.
+- Has two modes:
+  - Transport mode (encrypts payload only)
+  - Tunnel mode (encrypts entire packet)
+- Widely used for secure VPNs.
+
+---
+
+## 🖧 VLAN (Virtual Local Area Network)
+
+- Logical segmentation of a physical network into multiple broadcast domains.
+- Devices in different VLANs cannot communicate directly without routing.
+- Improves security and network efficiency by isolating traffic.
+- VLAN tagging (802.1Q) marks packets to belong to specific VLANs.
+
+---
+
+*End of notes.*  
+Feel free to contribute or suggest improvements!
+
+---
+
